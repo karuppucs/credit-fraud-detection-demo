@@ -1,4 +1,4 @@
-FROM python:3.10.4
+FROM registry.access.redhat.com/ubi8/python-311
 
 WORKDIR /tmp
 
