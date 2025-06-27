@@ -44,9 +44,10 @@ demo = gr.Interface(
     outputs="textbox",
     examples=[
         [57.87785658389723,0.3111400080477545,1.9459399775518593,1.0,1.0,0.0,0.0],
-        [15.694985541059943,175.98918151972342,0.8556228290724207,1.0,0.0,0.0,1.0]
+        [15.694985541059943,175.98918151972342,0.8556228290724207,1.0,0.0,0.0,1.0],
+        [6.194670766326057,1.142014235500891,0.3072166087549278,1.0,0.0,0.0,0.0]
         ],
-    title="Predict Credit Card Fraud"
+    title="TCS Adaptive XPU for Credit Card Fraud Detection"
     )
 
 demo.launch(server_name=GRADIO_SERVER_NAME, server_port=GRADIO_SERVER_PORT)
